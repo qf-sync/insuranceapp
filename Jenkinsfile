@@ -2,7 +2,7 @@ pipeline {
     agent { label 'maven-label' }
 
     tools {
-        maven "maven"
+        maven "M3"
     }
 
     stages {
